@@ -5,6 +5,7 @@
 }
 html{
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 body {
   overflow-x: hidden;
@@ -895,6 +896,14 @@ nav ul li a:hover {
   color: greenyellow;
   
 }
+#top-btn {
+  float: right;
+}
+#top-btn i{
+  font-weight: 600;
+  font-size: 40px;
+  color: #fff;
+}
 
 .animate-charcter
 {
@@ -923,7 +932,68 @@ nav ul li a:hover {
   to {
     background-position: 200% center;
   }
+
 }
+@media only screen and ( max-width: 1000px) {
+  .text-logo span{
+    font-size: 30px;
+    color: #fff;
+  }
+  nav ul li a{
+    padding: 5px;
+    font-size: 15px;
+  }
+  .main-link-content {
+    align-items: center;
+    justify-content: center;
+  }
+  .box {
+    color: #111111;
+    width: 120px;
+    height: 120px;
+    margin: 5px;
+  }
+  .box img{
+   width: 50%;
+  }
+  .about-container {
+    flex-direction: column-reverse;
+    
+  }
+  .about-text h1 {
+    text-align: center;
+    margin: 20px 0;
+  }
+  .button {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .about-image {
+    text-align: center;
+  }
+  .course-container {
+    align-items: center;
+    justify-content: center;
+  }
+  .cst, .me, .che {
+    flex-basis: 90%;
+    /* padding: 100px 0; */
+    margin: 20px 0;
+  }
+  .course-image img {
+    height: 300px;
+  }
+  .gallery-cotainer {
+    text-align: center;
+  }
+  .gallery-cotainer img {
+    /* width: 260px;
+    height: 200px; */
+    width: 95%;
+    height: 100%;
+  }
+}
+
 
 
 @media only screen and (max-width: 637px) {
@@ -965,6 +1035,7 @@ nav ul li a:hover {
   left: 0;
   position: absolute;
   display: none;
+  background: #737373;
  }
  nav ul {
   padding: 70px;
@@ -972,12 +1043,14 @@ nav ul li a:hover {
   height: auto;
   align-items: center;
   justify-content: center;
+
 }
  nav ul li {
   margin-top: 10px;
-  padding: 10px;
+  padding: 15px 0;
 }
  nav ul li a{
+  font-size: 23px;
   margin-top: 10px;
   border: none;
   padding: 10px;
@@ -1001,14 +1074,13 @@ nav ul li a:hover {
   display: block;
  }
  .main-links-container{
+  justify-content: center;
+  align-items: center;
   margin: 0;
   padding: 0;
   display: none;
   flex-wrap: wrap;
- }
- .main-link-content .box{
-  margin: 0;
-  padding: 0;
+  
  }
  .animate-charcter
 {
@@ -1094,4 +1166,11 @@ nav ul li a:hover {
   font-size: 10px;
   line-height: 12px;
 }
+#top-btn i{
+ font-size: 20px;
 }
+};
+
+
+
+
