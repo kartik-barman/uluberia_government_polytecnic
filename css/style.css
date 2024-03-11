@@ -734,6 +734,66 @@ nav ul li a:hover {
   position: relative;
   margin: 20px;
  }
+ .teacher-container {
+ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.teacher-section h1 {
+  text-align: center;
+  margin: 50px 0;
+  /* font-size: 35px; */
+}
+.teacher-container .card {
+  padding: 20px;
+  margin: 10px;
+  width: 400px;
+  /* height: 400px; */
+  background: #fff;
+  box-shadow: 20px 20px 50px gray;
+  border-left: 10px solid #45fc8e;
+  border-radius: 10px;
+/* background: linear-gradient(266deg, rgba(228,29,253,1) 35%, rgba(69,252,142,1) 74%); */
+}
+.teacher-image {
+  text-align: center;
+}
+.card h1 {
+  text-align: center;
+  margin: 20px 0;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.card img {
+  width: 200px;
+  border-radius: 50%;
+  height: 200px;
+}
+/* .card .btn {
+  background: #fff;
+  border: none;
+}
+.card .btn:hover {
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+} */
+.dot-bar {
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dot-bar div {
+  margin: 2px;
+  width: 15px;
+  height: 15px;
+  height: px;
+  border-radius: 50%;
+  background-color: gray;
+}
  .gallery-section h1::before{
   content: "";
   position: absolute;
@@ -903,6 +963,10 @@ nav ul li a:hover {
   font-weight: 600;
   font-size: 40px;
   color: #fff;
+  cursor: pointer;
+}
+#top-btn i:hover{
+ color: crimson;
 }
 
 .animate-charcter
@@ -1111,6 +1175,10 @@ nav ul li a:hover {
   padding-bottom: 50px;
   margin-bottom: 50px;
  }
+ .teacher-container .card {
+  width: 100%;
+
+ }
  .gallery-cotainer{
   text-align: center;
  }
@@ -1170,6 +1238,7 @@ nav ul li a:hover {
  font-size: 20px;
 }
 };
+
 
 
 
