@@ -16,6 +16,7 @@
   --h2-font-size: 1.25rem;
   --normal-font-size: 1rem;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -833,6 +834,7 @@ nav ul li a:hover {
   margin: 50px 0;
   position: relative;
 }
+
 .teacher-section .teacher-title {
   padding: 15px;
   text-align: center;
@@ -863,6 +865,7 @@ nav ul li a:hover {
   background: #fff9e7;
   transform: translateX(-50%);
 }
+
 .card__container {
   padding-block: 5rem;
 }
@@ -875,7 +878,8 @@ nav ul li a:hover {
 }
 
 .card__article {
-  width: 300px; /* Remove after adding swiper js */
+  width: 300px;
+  /* Remove after adding swiper js */
   border-radius: 1.25rem;
   overflow: hidden;
 }
@@ -911,6 +915,7 @@ nav ul li a:hover {
   display: flex;
   border: 5px solid #fff;
 }
+
 .card__name {
   font-size: 35px;
   color: #fff;
@@ -1260,6 +1265,7 @@ nav ul li a:hover {
   .course-image img {
     height: 300px;
   }
+
   .card__container {
     max-width: 1120px;
   }
@@ -1267,6 +1273,7 @@ nav ul li a:hover {
   .swiper-button-prev {
     left: -1rem;
   }
+
   .swiper-button-next {
     right: -1rem;
   }
