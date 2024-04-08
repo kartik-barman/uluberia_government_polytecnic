@@ -11,10 +11,14 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
-    <!-- Header Section Start Here -->
+    <!-- =====================================================
+              Header Section Start Here
+========================================================== -->
 
     <header class="header-section" id="header">
         <div class="contact-section">
@@ -41,7 +45,7 @@
                 <div></div>
             </div>
             <div class="cross-outline">
-                <div>X</div>  
+                <div>X</div>
             </div>
         </div>
 
@@ -50,9 +54,9 @@
                 <img src="./images/images.jpeg" alt="">
             </div>
             <div class="clg-details">
-                <h1>GOVT. OF WEST BENGAL</h1>
-                <h2>Uluberia Government Polytecnic</h2>
-                <h4>ULUBERIA – 1 , BOALIA , HOWRAH - 711316</h4>
+                <h1 data-aos="fade-right" data-aos-duration="3000">GOVT. OF WEST BENGAL</h1>
+                <h2 data-aos="fade-left" data-aos-duration="3000">Uluberia Government Polytecnic</h2>
+                <h4 data-aos="fade-right" data-aos-duration="3000">ULUBERIA – 1 , BOALIA , HOWRAH - 711316</h4>
             </div>
         </div>
     </header>
@@ -62,21 +66,74 @@
         <div>
             <nav>
                 <ul>
-                    <li><a href="#home"><span>Home</span></a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#course">Courses</a></li>
-                    <li><a href="#notice">Notice</a></li>
-                    <li><a href="#">Examination</a></li>
-                    <li><a href="#">Addmission</a></li>
-                    <li><a href="#">Student Zone</a></li>
-                    <li><a href="#">Libray</a></li>
-                    <li><a href="#">Teachars</a></li>
-                    <li><a href="#gallery">gallery</a></li>
-                    <li><a href="#contact">Contact Us</a></li>
+                    <li>
+                        <a href="#home"><span>Home</span></a>
+                    </li>
+                    <li class="drop-down">
+                        <a href="#about">About</a>
+                        <div class="dropdown-content" data-aos="flip-up">
+                            <a href="#about">History of the College</a>
+                            <a href="#gallery">Gallery</a>
+                        </div>
+                    </li>
+                    <li class="drop-down">
+                        <a href="#course" class="courses-drop">Courses</a>
+                        <div class="dropdown-content">
+                            <a href="#course">Computer Science & Techonology(CST)</a>
+                            <a href="#course">Mechanical Engineering(ME)</a>
+                            <a href="#course">Chemical Engineering(CHE)</a>
+                        </div>
+                    </li>
+
+                    <li class="drop-down">
+                        <a href="#notice">Notice</a>
+                        <div class="dropdown-content">
+                            <a href="#notice">Latest Notice</a>
+                            <a href="#notice">Programme Notice</a>
+                            <a href="#notice">Library Notice</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">Examination</a>
+                    </li>
+                    <li class="drop-down">
+                        <a href="#">Addmission</a>
+                        <div class="dropdown-content">
+                            <a href="">Jexpo</a>
+                            <a href="">Voclet</a>
+                            <a href="">Eligibility Criteria</a>
+                            <a href="">E-Counseling Procedure</a>
+                            <a href="">Online Application Procedure</a>
+                        </div>
+                    </li>
+                    <li class="drop-down">
+                        <a href="#">Student Zone</a>
+                        <div class="dropdown-content">
+                            <a href="">Rules & Regulation</a>
+                            <a href="">Skill Development Programme</a>
+                            <a href="">Competitive Examination</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">Libray</a>
+                    </li>
+                    <li>
+                        <a href="#teacher">Teachers</a>
+                    </li>
+                    <li>
+                        <a href="gallery.html">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact Us</a>
+                    </li>
                 </ul>
             </nav>
         </div>
     </div>
+
+    <!-- =====================================================
+              Home Section Start Here
+========================================================== -->
 
     <section class="home-section" id="home">
         <div class="home">
@@ -112,42 +169,42 @@
         </div>
     </div>
     <!-- =====================================================
-                Marquee Text End Here
+                Main Links Section Start Here
 ========================================================== -->
 
     <section class="main-links-container">
         <div class="main-link-content">
-            <div class="box">
+            <div class="box" data-aos="zoom-in">
                 <a href="#course">
-                <img src="./images/course.png" alt="">
-                <p>Course</p>
+                    <img src="./images/course.png" alt="">
+                    <p>Course</p>
                 </a>
             </div>
-            <div class="box">
+            <div class="box" data-aos="zoom-in">
                 <img src="./images/eligible.png" alt="">
                 <p>Eligibility Criteria</p>
             </div>
-            <div class="box">
+            <div class="box" data-aos="zoom-in">
                 <a href="https://scvtwb.in/candreg.aspx">
                     <img src="./images/onlile apply.png" alt="">
                     <p>Online Addmission</p>
                 </a>
             </div>
-            <div class="box">
+            <div class="box" data-aos="zoom-in">
                 <img src="./images/semester fee.png" alt="">
                 <p>Semester Fee</p>
             </div>
-            <div class="box anti-ragging-cell">
+            <div class="box anti-ragging-cell" data-aos="zoom-in">
                 <a href="https://www.antiragging.in/">
                     <img src="./images/Anti-Ragging.png" width="150px" alt="">
                     <p>Anti Ragging</p>
                 </a>
             </div>
-            <div class="box">
+            <div class="box" data-aos="zoom-in">
                 <img src="./images/support.png" alt="">
                 <p>Support</p>
             </div>
-            <div class="box student-login">
+            <div class="box student-login" data-aos="zoom-in">
                 <a href="https://sctvesd.wb.gov.in/admin/">
                     <img src="./images/student log in.png" alt="">
                     <p>Student Log In</p>
@@ -156,10 +213,9 @@
         </div>
     </section>
 
-
-
-
-
+    <!-- =====================================================
+              College Heading Section Start Here
+========================================================== -->
 
     <div class="welcome">
         <!-- <h1>Welcome To Uluberia Government Polytecnic</h1> -->
@@ -167,8 +223,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 text-center">
-                        <h3 class="animate-charcter"><i><span style="color: green;">"</span>Welcome To<span
-                                    style="color: green;">"</span></i> <br> Uluberia Government Polytecnic</h3>
+                        <h3 class="animate-charcter" data-aos="zoom-in" data-aos-duration="2000"><i><span
+                                    style="color: green;">"</span>Welcome To<span style="color: green;">"</span></i>
+                            <br> Uluberia Government Polytecnic</h3>
                     </div>
                 </div>
             </div>
@@ -176,7 +233,7 @@
     </div>
 
 
-    <!-- =====================================================
+    <!-- ========================================================
               About Section Start Here
 ========================================================== -->
 
@@ -184,7 +241,7 @@
         <h1 class="title">About</h1>
         <div class="about-container">
 
-            <div class="about-text">
+            <div class="about-text" data-aos="fade-right" data-aos-duration="2000">
                 <h1>Uluberia Goverbment Polytecnic</h1>
                 <p>Welcome to Uluberia Government Polytechnic - Uluberia Government Polytechnic under Government of West
                     Bengal is going to start its hubmle journey offering Three years Diploma Course in Engineering from
@@ -204,7 +261,7 @@
                         More</a>
                 </div>
             </div>
-            <div class="about-image">
+            <div class="about-image" data-aos="fade-left" data-aos-duration="2000">
                 <img src="./images/principal-gift.jpg" alt="">
             </div>
         </div>
@@ -217,7 +274,7 @@
     <section class="course-section" id="course">
         <h1 class="course-title">Course</h1>
         <div class="course-container">
-            <div class="cst">
+            <div class="cst" data-aos="zoom-in" data-aos-duration="2000">
                 <div class="course-image">
                     <img src="./images/computer science.jpg" alt="">
                 </div>
@@ -234,7 +291,7 @@
                     <a href="#" class="btn">View Course</a>
                 </div>
             </div>
-            <div class="me">
+            <div class="me" data-aos="zoom-in" data-aos-duration="2000">
                 <div class="course-image">
                     <img src="./images/mechanical.jpg" alt="">
                 </div>
@@ -245,13 +302,13 @@
                     <p><b>Semester :</b> 6</p>
                     <p><b>Intake :</b> 60</p>
                     <p><b>Student : </b>200+</p>
-                    <p><b>Eligibility :</b> 10<sup>th</sup> Pass  & ITI Vocational</p>
+                    <p><b>Eligibility :</b> 10<sup>th</sup> Pass & ITI Vocational</p>
                 </div>
                 <div class="course-button">
                     <a href="#" class="btn">View Course</a>
                 </div>
             </div>
-            <div class="che">
+            <div class="che" data-aos="zoom-in" data-aos-duration="2000">
                 <div class="course-image">
                     <img src="./images/Chemical Engineering.jpg" alt="">
                 </div>
@@ -269,245 +326,365 @@
                 </div>
             </div>
         </div>
-    <section class="teacher-section">
-        <h1>Teacher</h1>
-    <div class="teacher-container">
-        <div class="card">
-            <div></div>
-            <div class="teacher-image">
-                <img src="./images/kartik.jpg" alt="">
-            </div>
-            <h1>Arnab Bera</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, libero.</p>
-            <div class="button">
-                <button class="btn">Contact Us</button>
-               </div>
-        </div>
-        <div class="card">
-            <div class="teacher-image">
-                <img src="./images/kartik.jpg" alt="">
-            </div>
-            <h1>Sudipta Sen Gupta</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, libero.</p>
-            <div class="button">
-                <button class="btn">Contact Us</button>
-               </div>
-        </div>
-        <div class="card">
-            <div class="teacher-image">
-                <img src="./images/kartik.jpg" alt="">
-            </div>
-            <h1>Subhajit Sahoo</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, libero.</p>
-           <div class="button">
-            <button class="btn">Contact Us</button>
-           </div>
-        </div>
-    </div>
-   
-    </section>
-    <div class="dot-bar">
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
+
+        <!-- =====================================================
+            teacher Section Start Here
+========================================================== -->
+        <section class="teacher-section" id="teacher">
+            <h1 class="teacher-title">Teacher</h1>
+            <div class="card__container swiper">
+                <div class="card__content">
+                   <div class="swiper-wrapper">
+                      <article class="card__article swiper-slide">
+                         <div class="card__image">
+                            <img src="./images/Sudipta Sen gupta( IT ).png" alt="image" class="card__img">
+                            <div class="card__shadow"></div>
+                         </div>
+          
+                         <div class="card__data">
+                            <h3 class="card__name">Sudipta Sen Gupta</h3>
+                          <p style="font-size: 22px; color : #252525 ; margin-bottom : 20px">Computer Assistant</p>
+                            <p class="card__description">
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, tempora.
+                            </p>
+          
+                            <a href="#" class="card__button">View More</a>
+                         </div>
+                      </article>
+          
+                      <article class="card__article swiper-slide">
+                         <div class="card__image">
+                            <img src="https://scontent.fccu3-1.fna.fbcdn.net/v/t1.6435-9/50095562_1180822158759152_6112971285325676544_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=bWYOOhKBBY0Ab6h5qLl&_nc_ht=scontent.fccu3-1.fna&oh=00_AfBLeHwHY7BepILgP8DRB_iCDJhpHJ4QI14q_Dy0P3smyg&oe=663B5FDF" alt="image" class="card__img">
+                            <div class="card__shadow"></div>
+                         </div>
+          
+                         <div class="card__data">
+                            <h3 class="card__name">Arnob Bera</h3>
+                             <p style="font-size: 22px; color : #252525 ; margin-bottom : 20px">Physics Lecturer</p>
+                            <p class="card__description">
+                               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, tempora.
+                            </p>
+          
+                            <a href="https://www.facebook.com/arnab.bera.900" class="card__button">View More</a>
+                         </div>
+                      </article>
+          
+                      <article class="card__article swiper-slide">
+                         <div class="card__image">
+                            <img src="./images/Sudipta Manna( MATH ).png" alt="image" class="card__img">
+                            <div class="card__shadow"></div>
+                         </div>
+          
+                         <div class="card__data">
+                            <h3 class="card__name">Sudipta Manna</h3>
+                             <p style="font-size: 22px; color : #252525 ; margin-bottom : 20px">Mathematics</p>
+                            <p class="card__description">
+                               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, tempora.
+                            </p>
+          
+                            <a href="#" class="card__button">View More</a>
+                         </div>
+                      </article>
+          
+                      <article class="card__article swiper-slide">
+                         <div class="card__image">
+                            <img src="https://scontent.fccu3-1.fna.fbcdn.net/v/t1.6435-9/40618934_2170045276606959_1766078788199776256_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Tojr8h8M1tUAb75NilA&_nc_ht=scontent.fccu3-1.fna&oh=00_AfChejYdxlKs5gRVcSi6ufHZq_bDiZQPsMxEWyDqnilDJA&oe=663B60BF" alt="image" class="card__img">
+                            <div class="card__shadow"></div>
+                         </div>
+          
+                         <div class="card__data">
+                            <h3 class="card__name">Prasun Banerjee</h3>
+                            <p style="font-size: 22px; color : #252525 ; margin-bottom : 20px"> Lecturer in ME</p>
+                            <p class="card__description">
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, tempora.
+                            </p>
+          
+                            <a href="https://www.facebook.com/profile.php?id=100005767926588" class="card__button">View More</a>
+                         </div>
+                      </article>
+    
+                      <article class="card__article swiper-slide">
+                         <div class="card__image">
+                            <img src="https://scontent.fccu3-1.fna.fbcdn.net/v/t1.6435-9/37654118_3727522500604979_6700093615336587264_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=iUhk0OsOsHEAb5GOs1d&_nc_ht=scontent.fccu3-1.fna&oh=00_AfCTWjEcmu0pG_iUSNVzscLbVXKZFWNrSJGeULk92EN56A&oe=663B68BF" alt="image" class="card__img">
+                            <div class="card__shadow"></div>
+                         </div>
+          
+                         <div class="card__data">
+                            <h3 class="card__name">Shriya Goswami </h3>
+                            <p style="font-size: 22px; color : #252525 ; margin-bottom : 20px">Computer Science</p>
+                            <p class="card__description">
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, tempora.
+                            </p>
+          
+                            <a href="https://www.facebook.com/apushri2" class="card__button">View More</a>
+                         </div>
+                      </article>
+                   </div>
+                </div>
+    
+                <!-- Navigation buttons -->
+                <div class="swiper-button-next" style="margin-right: 10px;">
+                   <i class="ri-arrow-right-s-line"></i>
+                </div>
+                
+                <div class="swiper-button-prev">
+                   <i class="ri-arrow-left-s-line"></i>
+                </div>
+    
+                <!-- Pagination -->
+                <div class="swiper-pagination"></div>
+             </div>
+        </section>
+       
+          
+          
 
 
 
 
-    <!--==========================================
+        <!--==========================================
                  Gallery SECTION START
     ===========================================-->
-    <section class="gallery-section" id="gallery">
-        <h1>Gallery</h1>
-        <div class="gallery-cotainer">
-            <img src="./images/clg.jpg" alt="">
-            <img src="./images/kartik.jpg" alt="">
-            <img src="./images/kartik clg front.jpg" alt="">
-            <img src="./images/lab.jpg" alt="">
-            <img src="./images/My-team (4).jpg" alt="">
-            <img src="./images/student.jpg" alt="">
-        </div>
-    </section>
-    <!--==========================================
+
+        <section class="gallery-section" id="gallery">
+            <h1>Gallery</h1>
+            <div class="gallery-cotainer" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
+                <a href="./images/clg.jpg" target="_blank">
+                    <img src="./images/clg.jpg" alt="" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
+                </a>
+                <a href="./images/kartik.jpg" target="_blank">
+                    <img src="./images/kartik.jpg" alt="" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
+                </a>
+                <a href="./images/kartik clg front.jpg" target="_blank">
+                    <img src="./images/kartik clg front.jpg" alt="" data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                </a>
+                <a href="./images/lab.jpg" target="_blank">
+                    <img src="./images/lab.jpg" alt="" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
+                </a>
+                <a href="./images/My-team (4).jpg" target="_blank">
+                    <img src="./images/My-team (4).jpg" alt="" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
+                </a>
+                <a href="./images/student.jpg" target="_blank">
+                    <img src="./images/student.jpg" alt="" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
+                </a>
+            </div>
+        </section>
+
+        <!--==========================================
                  NOTICE SECTION START
     ===========================================-->
 
-    <section class="notice" id="notice">
-        <div class="notice_content">
-            <div class="notice_heading">
-                <h1>Notice Board</h1>
+        <section class="notice" id="notice">
+            <div class="notice_content">
+                <div class="notice_heading">
+                    <h1>Notice Board</h1>
+                </div>
+                <div class="notice_news">
+                    <div class="general_notice" data-aos="fade-right" data-aos-duration="2000">
+                        <div class="col-1">
+                            <h1>Latest Notice</h1>
+                        </div>
+                        <div class="col-2"></div>
+                        <!-- <div class="marquee-control">
+                            <div class="control-icon">
+                                <i class="fa-solid fa-pause stopBtn"></i>
+                                <i class="fa-solid fa-play startBtn"></i>
+                            </div>
+                        </div> -->
+                        <div class="notice_details">
+                            <marquee class="mark" behavior="scroll" direction="up" scrolldelay="300">
+
+                                <p><a href="" target="_blank">2022-2023 Session Addmission Start <img
+                                            src="./images/new-blinking.gif" alt=""></a></p>
+                                <p><a href="" target="_blank">2023-2024 Session Addmission Start <img
+                                            src="./images/new-blinking.gif" alt=""></a></p>
+                                <p><a href="" target="_blank">2023-2024 Session Addmission Start <img
+                                            src="./images/new-blinking.gif" alt=""></a></p>
+                                <p><a href="" target="_blank">2023-2024 Session Addmission Start <img
+                                            src="./images/new-blinking.gif" alt=""></a></p>
+                                <p><a href="" target="_blank">2023-2024 Session Addmission Start <img
+                                            src="./images/new-blinking.gif" alt=""></a></p>
+                                <p><a href="" target="_blank">2023-2024 Session Addmission Start <img
+                                            src="./images/new-blinking.gif" alt=""></a></p>
+                                <p><a href="" target="_blank">2023-2024 Session Addmission Start <img
+                                            src="./images/new-blinking.gif" alt=""></a></p>
+
+
+                            </marquee>
+                        </div>
+                    </div>
+                    <div class="programme_notice" data-aos="flip-up" data-aos-duration="2000">
+                        <div class="col-1">
+                            <h1>Programme Notice</h1>
+                        </div>
+                        <div class="col-2"></div>
+                        <div class="programme_notice_details">
+                            <div class="programme_notice_time">
+                                <b>12 <br /> Jan </b>
+                            </div>
+                            <div class="programme_notice_details_p">
+                                <p>Institute will remain closed.</p>
+                            </div>
+                        </div>
+                        <div class="programme_notice_details">
+                            <div class="programme_notice_time">
+                                <b>20 <br /> Feb </b>
+                            </div>
+                            <div class="programme_notice_details_p">
+                                <p>Institute will remain closed.</p>
+                            </div>
+                        </div>
+                        <div class="programme_notice_details">
+                            <div class="programme_notice_time">
+                                <b>25 <br /> May </b>
+                            </div>
+                            <div class="programme_notice_details_p">
+                                <p>Institute will remain closed.</p>
+                            </div>
+                        </div>
+                        <div class="programme_notice_details">
+                            <div class="programme_notice_time">
+                                <b>25 <br /> May </b>
+                            </div>
+                            <div class="programme_notice_details_p">
+                                <p>Institute will remain closed.</p>
+                            </div>
+                        </div>
+                        <div class="programme_notice_details">
+                            <div class="programme_notice_time">
+                                <b>25 <br /> May </b>
+                            </div>
+                            <div class="programme_notice_details_p">
+                                <p>Institute will remain closed.</p>
+                            </div>
+                        </div>
+                        <div class="programme_notice_details">
+                            <div class="programme_notice_time">
+                                <b>25 <br /> May </b>
+                            </div>
+                            <div class="programme_notice_details_p">
+                                <p>Institute will remain closed.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="library_notice" data-aos="fade-left" data-aos-duration="2000">
+                        <div class="col-1">
+                            <h1>Library Notice</h1>
+                        </div>
+                        <div class="col-2"></div>
+                        <div class="marquee-control">
+                            <div class="control-icon">
+                                <i class="fa-solid fa-pause stopBtn"></i>
+                                <i class="fa-solid fa-play startBtn"></i>
+                            </div>
+                        </div>
+                        <div class="notice_details">
+                            <marquee class="mark" behavior="scroll" direction="up" scrolldelay="300">
+                                <p><a href="" target="_blank">Library will be opened on 05/02/2024 from
+                                        11:00AM - 3:00 PM</a></p>
+                                <p><a href="" target="_blank">Library will be opened on 08/03/2024 from
+                                        11:00AM - 3:00 PM</a></p>
+                                <p><a href="" target="_blank">Library will be opened on 22/04/2024 from
+                                        11:00AM - 3:00 PM</a></p>
+                                <p><a href="" target="_blank">Library will be opened on 09/05/2024 from
+                                        11:00AM - 3:00 PM</a></p>
+
+                            </marquee>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="notice_news">
-                <div class="general_notice">
-                    <div class="col-1">
-                        <h1>Latest Notice</h1>
-                    </div>
-                    <div class="col-2"></div>
-                    <div class="notice_details">
-                        <marquee behavior="scroll" direction="up">
+        </section>
 
-                            <p><a href="" target="_blank">2022-2023 Session Addmission Start <img
-                                        src="./images/new-blinking.gif" alt=""></a></p>
-                            <p><a href="" target="_blank">2023-2024 Session Addmission Start <img
-                                        src="./images/new-blinking.gif" alt=""></a></p>
-                            <p><a href="" target="_blank">2023-2024 Session Addmission Start <img
-                                        src="./images/new-blinking.gif" alt=""></a></p>
-                            <p><a href="" target="_blank">2023-2024 Session Addmission Start <img
-                                        src="./images/new-blinking.gif" alt=""></a></p>
-                            <p><a href="" target="_blank">2023-2024 Session Addmission Start <img
-                                        src="./images/new-blinking.gif" alt=""></a></p>
-                            <p><a href="" target="_blank">2023-2024 Session Addmission Start <img
-                                        src="./images/new-blinking.gif" alt=""></a></p>
-                            <p><a href="" target="_blank">2023-2024 Session Addmission Start <img
-                                        src="./images/new-blinking.gif" alt=""></a></p>
-
-
-                        </marquee>
-                    </div>
-                </div>
-                <div class="programme_notice">
-                    <div class="col-1">
-                        <h1>Programme Notice</h1>
-                    </div>
-                    <div class="col-2"></div>
-                    <div class="programme_notice_details">
-                        <div class="programme_notice_time">
-                            <b>12 <br /> Jan </b>
-                        </div>
-                        <div class="programme_notice_details_p">
-                            <p>Institute will remain closed.</p>
-                        </div>
-                    </div>
-                    <div class="programme_notice_details">
-                        <div class="programme_notice_time">
-                            <b>20 <br /> Feb </b>
-                        </div>
-                        <div class="programme_notice_details_p">
-                            <p>Institute will remain closed.</p>
-                        </div>
-                    </div>
-                    <div class="programme_notice_details">
-                        <div class="programme_notice_time">
-                            <b>25 <br /> May </b>
-                        </div>
-                        <div class="programme_notice_details_p">
-                            <p>Institute will remain closed.</p>
-                        </div>
-                    </div>
-                    <div class="programme_notice_details">
-                        <div class="programme_notice_time">
-                            <b>25 <br /> May </b>
-                        </div>
-                        <div class="programme_notice_details_p">
-                            <p>Institute will remain closed.</p>
-                        </div>
-                    </div>
-                    <div class="programme_notice_details">
-                        <div class="programme_notice_time">
-                            <b>25 <br /> May </b>
-                        </div>
-                        <div class="programme_notice_details_p">
-                            <p>Institute will remain closed.</p>
-                        </div>
-                    </div>
-                    <div class="programme_notice_details">
-                        <div class="programme_notice_time">
-                            <b>25 <br /> May </b>
-                        </div>
-                        <div class="programme_notice_details_p">
-                            <p>Institute will remain closed.</p>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="library_notice">
-                    <div class="col-1">
-                        <h1>Library Notice</h1>
-                    </div>
-                    <div class="col-2"></div>
-                    <div class="notice_details">
-                        <marquee behavior="scroll" direction="up">
-                            <p><a href="" target="_blank">Library will be opened on 05/02/2024 from
-                                    11:00AM - 3:00 PM</a></p>
-                            <p><a href="" target="_blank">Library will be opened on 08/03/2024 from
-                                    11:00AM - 3:00 PM</a></p>
-                            <p><a href="" target="_blank">Library will be opened on 22/04/2024 from
-                                    11:00AM - 3:00 PM</a></p>
-                            <p><a href="" target="_blank">Library will be opened on 09/05/2024 from
-                                    11:00AM - 3:00 PM</a></p>
-
-                        </marquee>
-                    </div>
-                </div>
+        <!-- =====================================================
+                Placemenet Section Start Here
+========================================================== -->
+        <section class="placement-container">
+            <h1>Placemenet Partner</h1>
+            <div class="placement-content">
+                <marquee behavior="alternate" direction="">
+                    <img src="./images/amazon.jpg" alt="">
+                    <img src="./images/l & T.jpg" alt="">
+                    <img src="./images/Tata.jpg" alt="">
+                    <img src="./images/microsoft.jpg" alt="">
+                    <img src="./images/google.png" alt="">
+                    <img src="./images/hitachi.png" alt="">
+                    <img src="./images/intel.png" alt="">
+                    <img src="./images/nvdia.png" alt="">
+                    <img src="./images/" alt="">
+                </marquee>
             </div>
-        </div>
-    </section>
-
-    <!-- =====================================================
+        </section>
+        <!-- =====================================================
                 Footer Start Here
 ========================================================== -->
 
-    <footer class="footer_section" id="contact">
-        <div class="footer_container">
-            <div class="get_in_touch">
-                <h2>GET IN TOUCH</h2>
-                <div class="address">
-                    <i class="fa-solid fa-location-dot"></i><b>Address :</b> Mouza- Barberia JL No-34 L.R. Khatian No-
-                    1, Boalia
-                    Uluberia
-                    Howrah: 711316
+        <footer class="footer_section" id="contact">
+            <div class="footer_container">
+                <div class="get_in_touch">
+                    <h2>GET IN TOUCH</h2>
+                    <div class="address">
+                        <i class="fa-solid fa-location-dot"></i><b>Address :</b> Mouza- Barberia JL No-34 L.R. Khatian
+                        No-
+                        1, Boalia
+                        Uluberia
+                        Howrah: 711316
+                    </div>
+                    <div class="ph">
+                        <i class="fa-solid fa-phone-flip"></i> <b>Helpline :</b> + (91) 7980372659 / 9679249429
+                    </div>
+                    <div class="email">
+                        <i class="fa-solid fa-envelope"></i> <b>Email :</b> uluberiagovpoly@gmail.com
+                    </div>
                 </div>
-                <div class="ph">
-                    <i class="fa-solid fa-phone-flip"></i> <b>Helpline :</b> + (91) 7980372659 / 9679249429
+                <div class="links">
+                    <h2>Quick Links</h2>
+                    <li> <i class="fa-solid fa-arrow-right"></i> <a href="#home">Home</a></li>
+                    <li> <i class="fa-solid fa-arrow-right"></i> <a href="#about">About Us</a></li>
+                    <li> <i class="fa-solid fa-arrow-right"></i> <a href="#addmission">Addmission</a></li>
+                    <li> <i class="fa-solid fa-arrow-right"></i> <a href="#gallery">Gallery</a></li>
+                    <li> <i class="fa-solid fa-arrow-right"></i> <a href="#notice">Notice</a></li>
+                    <li> <i class="fa-solid fa-arrow-right"></i> <a href="#contanct">Contact Us</a></li>
                 </div>
-                <div class="email">
-                    <i class="fa-solid fa-envelope"></i> <b>Email :</b> uluberiagovpoly@gmail.com
+                <div class="social_links">
+                    <h2>Follow Us</h2>
+                    <a href="https://www.facebook.com/kartik.barman.7967747" target="_blank"><i
+                            class="fa-brands fa-facebook"></i>
+                        Facebook</a>
+                    <a href="https://www.instagram.com/mr_kartik_barman/" target="_blank"><i
+                            class="fa-brands fa-instagram"></i> Instagram</a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i> Twitter</a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i> Whatsapp</a>
                 </div>
             </div>
-            <div class="links">
-                <h2>Quick Links</h2>
-                <li> <i class="fa-solid fa-arrow-right"></i> <a href="#home">Home</a></li>
-                <li> <i class="fa-solid fa-arrow-right"></i> <a href="#about">About Us</a></li>
-                <li> <i class="fa-solid fa-arrow-right"></i> <a href="#addmission">Addmission</a></li>
-                <li> <i class="fa-solid fa-arrow-right"></i> <a href="#gallery">Gallery</a></li>
-                <li> <i class="fa-solid fa-arrow-right"></i> <a href="#notice">Notice</a></li>
-                <li> <i class="fa-solid fa-arrow-right"></i> <a href="#contanct">Contact Us</a></li>
-            </div>
-            <div class="social_links">
-                <h2>Follow Us</h2>
-                <a href="https://www.facebook.com/kartik.barman.7967747" target="_blank"><i
-                        class="fa-brands fa-facebook"></i>
-                    Facebook</a>
-                <a href="https://www.instagram.com/mr_kartik_barman/" target="_blank"><i
-                        class="fa-brands fa-instagram"></i> Instagram</a>
-                <a href="#"><i class="fa-brands fa-twitter"></i> Twitter</a>
-                <a href="#"><i class="fa-brands fa-whatsapp"></i> Whatsapp</a>
-            </div>
-        </div>
-        <hr class="border1">
-        <div class="copyrigt_section">
+            <hr class="border1">
+            <div class="copyrigt_section">
 
-            <span>Uluberia Government Polytechnic </span> | <span class='far fa-copyright'></span> 2023 All rights
-            reserved.</span>| <span>Website Created By <a href='https://mrkartikbarman.blogspot.com/' target='_blank'>Mr
-                    Kartik Barman</a>
-        </div>
-        <a href="#header" id="top-btn"><i class="fa-solid fa-arrow-up"></i></a>
-    </footer>
+                <span>Uluberia Government Polytechnic </span> | <span class='far fa-copyright'></span> 2023 All rights
+                reserved.</span>| <span>Website Created By <a href='https://mrkartikbarman.blogspot.com/'
+                        target='_blank'>Mr
+                        Kartik Barman</a>
+            </div>
+            <a href="#header" id="top-btn"><i class="fa-solid fa-arrow-up"></i></a>
+        </footer>
 
-    <!-- =====================================================
+        <!-- =====================================================
                 Footer Section End Here
 ========================================================== -->
-
-
-
-
-
-
-
-
-
-    <script src="./js/main.js"></script>
+<script src="js/swiper-bundle.min.js"></script>
+        <script src="./js/main.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 </body>
 
 </html>
