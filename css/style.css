@@ -755,6 +755,9 @@ nav ul li a:hover {
 .library_notice_details_p p{
   color: blue;
   border: none;
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .notice_news {
